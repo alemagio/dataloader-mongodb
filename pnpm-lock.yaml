@@ -126,8 +126,8 @@ importers:
         version: 2.8.1
     devDependencies:
       mongodb:
-        specifier: ^4.17.2
-        version: 4.17.2
+        specifier: ^6.13.0
+        version: 6.13.0(@aws-sdk/credential-providers@3.423.0)(socks@2.7.1)
       mongodb-memory-server:
         specifier: ^10.1.3
         version: 10.1.3(@aws-sdk/credential-providers@3.423.0)(socks@2.7.1)
@@ -656,9 +656,6 @@ packages:
   '@mongodb-js/saslprep@1.1.0':
     resolution: {integrity: sha512-Xfijy7HvfzzqiOAhAepF4SGN5e9leLkMvg/OPOF97XemjfVCYN/oWa75wnkc6mltMSTwY+XlbhWgUOJmkFspSw==}
 
-  '@mongodb-js/saslprep@1.1.8':
-    resolution: {integrity: sha512-qKwC/M/nNNaKUBMQ0nuzm47b7ZYWQHN3pcXq4IIcoSBc2hOIrflAxJduIvvqmhoz3gR2TacTAs8vlsCVPkiEdQ==}
-
   '@mongodb-js/saslprep@1.1.9':
     resolution: {integrity: sha512-tVkljjeEaAhCqTzajSdgbQ6gE6f3oneVwa3iXR6csiEwXXOFsiC6Uh9iAjAhXPtqa/XMDHWjjeNH/77m/Yq2dw==}
 
@@ -846,9 +843,6 @@ packages:
   '@types/object-hash@2.2.1':
     resolution: {integrity: sha512-i/rtaJFCsPljrZvP/akBqEwUP2y5cZLOmvO+JaYnz01aPknrQ+hB5MRcO7iqCUsFaYfTG8kGfKUyboA07xeDHQ==}
 
-  '@types/webidl-conversions@7.0.0':
-    resolution: {integrity: sha512-xTE1E+YF4aWPJJeUzaZI5DRntlkY3+BCVJi0axFptnjGmAoWxkyREIh/XMrfxVLejwQxMCfDXdICo0VLxThrog==}
-
   '@types/webidl-conversions@7.0.3':
     resolution: {integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==}
 
@@ -960,8 +954,8 @@ packages:
     resolution: {integrity: sha512-Ry9wCtIZ5kGqkJoi6aD8KjxFZEx78guTQDnpXWiNthsxzrxAK/i8E6pCHAIZTbaEFWcOCvbecMukfK7XUvyLpQ==}
     engines: {node: '>=6.9.0'}
 
-  bson@6.10.1:
-    resolution: {integrity: sha512-P92xmHDQjSKPLHqFxefqMxASNq/aWJMEZugpCjf+AF/pgcUpMMQCg7t7+ewko0/u8AapvF3luf/FoehddEK+sA==}
+  bson@6.10.2:
+    resolution: {integrity: sha512-5afhLTjqDSA3akH56E+/2J6kTDuSIlBxyXPdQslj9hcIgOUE378xdOfZvC/9q3LifJNI6KR/juZ+d0NRNYBwXg==}
     engines: {node: '>=16.20.1'}
 
   buffer-crc32@0.2.13:
@@ -1692,8 +1686,8 @@ packages:
     resolution: {integrity: sha512-mLV7SEiov2LHleRJPMPrK2PMyhXFZt2UQLC4VD4pnth3jMjYKHhtqfwwkkvS/NXuo/Fp3vbhaNcXrIDaLRb9Tg==}
     engines: {node: '>=12.9.0'}
 
-  mongodb@6.12.0:
-    resolution: {integrity: sha512-RM7AHlvYfS7jv7+BXund/kR64DryVI+cHbVAy9P61fnb1RcWZqOW1/Wj2YhqMCx+MuYhqTRGv7AwHBzmsCKBfA==}
+  mongodb@6.13.0:
+    resolution: {integrity: sha512-KeESYR5TEaFxOuwRqkOm3XOsMqCSkdeDMjaW5u2nuKfX7rqaofp7JQGoi7sVqQcNJTKuveNbzZtWMstb8ABP6Q==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
@@ -1889,10 +1883,6 @@ packages:
     resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-
-  punycode@2.1.1:
-    resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
-    engines: {node: '>=6'}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -3167,11 +3157,6 @@ snapshots:
       sparse-bitfield: 3.0.3
     optional: true
 
-  '@mongodb-js/saslprep@1.1.8':
-    dependencies:
-      sparse-bitfield: 3.0.3
-    optional: true
-
   '@mongodb-js/saslprep@1.1.9':
     dependencies:
       sparse-bitfield: 3.0.3
@@ -3484,8 +3469,6 @@ snapshots:
 
   '@types/object-hash@2.2.1': {}
 
-  '@types/webidl-conversions@7.0.0': {}
-
   '@types/webidl-conversions@7.0.3': {}
 
   '@types/whatwg-url@11.0.5':
@@ -3495,7 +3478,7 @@ snapshots:
   '@types/whatwg-url@8.2.2':
     dependencies:
       '@types/node': 22.10.1
-      '@types/webidl-conversions': 7.0.0
+      '@types/webidl-conversions': 7.0.3
 
   JSONStream@1.3.5:
     dependencies:
@@ -3598,7 +3581,7 @@ snapshots:
     dependencies:
       buffer: 5.7.1
 
-  bson@6.10.1: {}
+  bson@6.10.2: {}
 
   buffer-crc32@0.2.13: {}
 
@@ -4296,7 +4279,7 @@ snapshots:
       find-cache-dir: 3.3.2
       follow-redirects: 1.15.9(debug@4.4.0)
       https-proxy-agent: 7.0.6
-      mongodb: 6.12.0(@aws-sdk/credential-providers@3.423.0)(socks@2.7.1)
+      mongodb: 6.13.0(@aws-sdk/credential-providers@3.423.0)(socks@2.7.1)
       new-find-package-json: 2.0.0
       semver: 7.6.3
       tar-stream: 3.1.7
@@ -4373,14 +4356,14 @@ snapshots:
       socks: 2.7.1
     optionalDependencies:
       '@aws-sdk/credential-providers': 3.423.0
-      '@mongodb-js/saslprep': 1.1.8
+      '@mongodb-js/saslprep': 1.1.9
     transitivePeerDependencies:
       - aws-crt
 
-  mongodb@6.12.0(@aws-sdk/credential-providers@3.423.0)(socks@2.7.1):
+  mongodb@6.13.0(@aws-sdk/credential-providers@3.423.0)(socks@2.7.1):
     dependencies:
       '@mongodb-js/saslprep': 1.1.9
-      bson: 6.10.1
+      bson: 6.10.2
       mongodb-connection-string-url: 3.0.2
     optionalDependencies:
       '@aws-sdk/credential-providers': 3.423.0
@@ -4526,8 +4509,6 @@ snapshots:
       find-up: 4.1.0
 
   prettier@2.8.0: {}
-
-  punycode@2.1.1: {}
 
   punycode@2.3.1: {}
 
@@ -4744,7 +4725,7 @@ snapshots:
 
   tr46@3.0.0:
     dependencies:
-      punycode: 2.1.1
+      punycode: 2.3.1
 
   tr46@5.0.0:
     dependencies:
